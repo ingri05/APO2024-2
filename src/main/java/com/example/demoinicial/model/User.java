@@ -1,9 +1,9 @@
 package com.example.demoinicial.model;
 
 public class User {
-    private String name;
-    private String code;
-    private double score;
+    private final String name;
+    private final String code;
+    private final double score;
 
 
     public User(String code, String name, double score) {
